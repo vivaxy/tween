@@ -2,7 +2,9 @@
 
 js tween library
 
-## [example](./example)
+## example
+
+see [here](http://vivaxy.github.io/tween/example/)
 
 ## USAGE
 
