@@ -13,7 +13,7 @@ new Tween(element)
     .animate({
         style: 'top',
         from: 0,
-        to: 200
+        to: 200,
         value: function (v) {
             return v + 'px';
         },
