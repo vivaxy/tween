@@ -2,11 +2,9 @@
 
 js tween library
 
-### example
+## [example](./example)
 
-[here](./example)
-
-### USAGE
+## USAGE
 
 ```js
 new Tween(element)
