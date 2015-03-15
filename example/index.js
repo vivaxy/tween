@@ -4,38 +4,44 @@
  */
 
 var ele = document.querySelector('.test'),
-    from = 90, to = 0;
+    topFrom = 90, topTo = 0, leftFrom = 90, leftTo = 0;
 
-var toggleStyle = function () {
-    var temp = to;
-    to = from;
-    from = temp;
+var toggleTop = function () {
+    var temp = topTo;
+    topTo = topFrom;
+    topFrom = temp;
     new Tween(ele)
         .animate({
             style: 'top',
-            from: from,
-            to: to,
-            duration: 2000,
+            from: topFrom,
+            to: topTo,
+            duration: 1000,
             value: function (v) {
                 return v + '%';
             }
         })
-        .on('frame', function (v) {
-            console.log(v);
-        })
-        .on('end', toggleStyle)
+        .on('end', toggleTop)
         .start();
+
+};
+
+var toggleLeft = function () {
+    var temp = leftTo;
+    leftTo = leftFrom;
+    leftFrom = temp;
     new Tween(ele)
         .animate({
             style: 'left',
-            from: from,
-            to: to,
-            duration: 2000,
+            from: leftFrom,
+            to: leftTo,
+            duration: 1357,
             value: function (v) {
                 return v + '%';
             }
         })
+        .on('end', toggleLeft)
         .start();
 };
 
-toggleStyle();
+toggleTop();
+toggleLeft();
