@@ -1,9 +1,12 @@
 # tween
+
 js tween library
 
-see example [here](./example)
+### example
 
-## USAGE
+[here](./example)
+
+### USAGE
 
 ```js
 new Tween(element)
@@ -19,8 +22,8 @@ new Tween(element)
     .on('end', function () {
         console.log('end');
     })
-    .on('frame', function (value) {
-        console.log('top: ' + value);
+    .on('frame', function (v) {
+        console.log('top: ' + v + 'px;');
     })
     .start();
 ```
