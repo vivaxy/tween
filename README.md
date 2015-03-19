@@ -26,5 +26,5 @@ new Tween(element)
         console.log('top: ' + v + 'px;');
     })
     .start()
-    .stop();
+    .pause();
 ```
