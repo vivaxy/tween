@@ -25,5 +25,6 @@ new Tween(element)
     .on('frame', function (v) {
         console.log('top: ' + v + 'px;');
     })
-    .start();
+    .start()
+    .stop();
 ```

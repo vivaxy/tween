@@ -4,7 +4,7 @@
  */
 
 var ele = document.querySelector('.test'),
-    topFrom = 90, topTo = 0, leftFrom = 90, leftTo = 0;
+    topFrom = 90, topTo = 0, leftFrom = 90, leftTo = 0, t;
 
 var toggleTop = function () {
     var temp = topTo;
@@ -29,7 +29,7 @@ var toggleLeft = function () {
     var temp = leftTo;
     leftTo = leftFrom;
     leftFrom = temp;
-    new Tween(ele)
+    t = new Tween(ele)
         .animate({
             style: 'left',
             from: leftFrom,
@@ -45,3 +45,4 @@ var toggleLeft = function () {
 
 toggleTop();
 toggleLeft();
+
