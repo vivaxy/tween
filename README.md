@@ -2,9 +2,9 @@
 
 js tween library
 
-## example
+## demo
 
-see [here](http://vivaxy.github.io/tween/example/)
+see [here](http://vivaxy.github.io/tween/demo/)
 
 ## USAGE
 
@@ -28,3 +28,9 @@ new Tween(element)
     .start()
     .pause();
 ```
+
+## develop
+
+1. npm i
+
+2. make

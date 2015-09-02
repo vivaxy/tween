@@ -1,0 +1,26 @@
+{
+  "name": "tween",
+  "version": "1.0.0",
+  "description": "tween",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^5.8.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivaxy/tween.git"
+  },
+  "keywords": [
+    "tween"
+  ],
+  "author": "vivaxy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivaxy/tween/issues"
+  },
+  "homepage": "https://github.com/vivaxy/tween#readme"
+}
