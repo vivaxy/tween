@@ -33,4 +33,6 @@ new Tween(element)
 
 1. npm i
 
-2. make
+2. `git submodule update --init` (`git submodule update --remote`)
+
+3. make

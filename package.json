@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "tween",
   "main": "index.js",
-  "dependencies": {
-    "babel": "^5.8.23"
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
