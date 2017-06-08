@@ -26,7 +26,8 @@
  *     .start()
  *     .pause();
  */
-import EventEmitter from '../event-emitter/src/event-emitter.js'
+import EventEmitter from 'event-emitter/src/event-emitter.js';
+
 /**
  * @param {Object} element - target element
  * @constructor
@@ -57,7 +58,7 @@ class Tween extends EventEmitter {
         this.from = options.from;
         this.to = options.to;
         this.duration = options.duration;
-        this.getValue = options.getValue || function (v) {
+        this.getValue = options.getValue || function(v) {
                 return v;
             };
         return this;

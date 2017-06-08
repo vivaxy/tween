@@ -1,12 +1,12 @@
 # tween
 
-js tween library
+JavaScript Tween Library
 
-## demo
+## Demo
 
-see [here](http://vivaxy.github.io/tween/demo/)
+See [here](http://vivaxy.github.io/tween/demo/).
 
-## USAGE
+## Usage
 
 ```js
 new Tween(element)
@@ -29,10 +29,7 @@ new Tween(element)
     .pause();
 ```
 
-## develop
+## Contributing
 
-1. npm i
-
-2. `git submodule update --init` (`git submodule update --remote`)
-
-3. make
+- `npm install`
+- `npm run build`
