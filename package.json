@@ -26,6 +26,6 @@
   "homepage": "https://github.com/vivaxy/tween#readme",
   "dependencies": {
     "babel-core": "^6.24.1",
-    "event-emitter": "git@github.com:vivaxy/event-emitter.git"
+    "event-emitter": "git+https://github.com/vivaxy/event-emitter.git"
   }
 }
